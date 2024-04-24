@@ -1,3 +1,10 @@
+# Changes in version 1.6.0
+
+## New features
+
+* `checkInstalled` allows to check if a package is installed and produces
+copy-and-paste text for installation.
+
 # Changes in version 1.4.0
 
 ## New features
