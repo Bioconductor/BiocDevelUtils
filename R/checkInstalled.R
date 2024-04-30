@@ -13,10 +13,11 @@
 #' @author M. Morgan, M. Ramos
 #'
 #' @examples
-#' checkInstalled(
-#'     c("BiocParallel", "SummarizedExperiment")
-#' )
-#'
+#' if (interactive()) {
+#'     checkInstalled(
+#'         c("BiocParallel", "SummarizedExperiment")
+#'     )
+#' }
 #' @export
 checkInstalled <- function(pkgs) {
     inst <- vapply(pkgs, FUN = function(pkg) {

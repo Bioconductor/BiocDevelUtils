@@ -20,10 +20,11 @@ installation with \code{BiocManager}. The function is typically used within
 functions that check for package availability from the \code{Suggests} field.
 }
 \examples{
-checkInstalled(
-    c("BiocParallel", "SummarizedExperiment")
-)
-
+if (interactive()) {
+    checkInstalled(
+        c("BiocParallel", "SummarizedExperiment")
+    )
+}
 }
 \author{
 M. Morgan, M. Ramos
