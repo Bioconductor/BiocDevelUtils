@@ -1,6 +1,6 @@
 Package: BiocBaseUtils
 Title: General utility functions for developing Bioconductor packages
-Version: 1.8.0
+Version: 1.9.0
 Authors@R: c(
   person("Marcel", "Ramos", , "marcel.ramos@sph.cuny.edu",
     c("aut", "cre"), c(ORCID = "0000-0002-3242-0582")
